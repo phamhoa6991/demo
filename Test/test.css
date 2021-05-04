@@ -4,14 +4,16 @@
 }
 .container {
     background-image: url(./image/Photo.png);
-    width: 1440px;
-    height: 828px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: red;
+   padding-top: 68px;
+   padding-bottom: 68px;
 }
 .Introduce {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 61px;
     align-items:center;
 }
 .Menu { 
@@ -19,6 +21,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin-right: 120px;
+    align-items: center;
 }
 .Looper {
     margin-left: 147px;
@@ -49,9 +52,39 @@
     border-style: ridge;
     border: 1px solid rgba(255, 255, 255, 0.25);
     box-sizing: border-box;
-    width: 833px;
-    height: 108px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    align-self: flex-start;
+    padding-bottom: 36px;
+    padding-top: 36px;
+    justify-content: space-between;
+    margin-top: 70px;
 }
+.Scroll {
+    display: flex;
+    flex-direction:unset;
+    justify-content: center ;
+    transform: rotate(90deg);
+}
+/* Part1 */
+.column-layout{
+    display: flex;
+    margin-top: 79px;
+}
+.describle { 
+    font-family: Mplus 1p;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.2px;
+    line-height: 26px;
+    color: #776C82;
+
+}
+.column-item {
+    flex: 1;
+}
+.container2 { 
+    padding : 100px;
+}
+
